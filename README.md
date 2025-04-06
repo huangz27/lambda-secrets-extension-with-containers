@@ -1,5 +1,7 @@
 # lambda-secrets-extension-with-containers
 
+This is an example of how to use the lambda secrets extension when deploying with container images
+
 References: 
 blogpost: https://aws.amazon.com/blogs/compute/working-with-lambda-layers-and-extensions-in-container-images/  
 app.py: https://github.com/aws-samples/serverless-patterns/blob/main/lambda-secrets-manager-extension-python/hello_world/app.py
