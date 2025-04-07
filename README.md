@@ -17,4 +17,4 @@ Instructions (Manual way):
 - Test invoke -> success!
 
 With SAM:
-- Work in progress
+- look into automate with SAM folder

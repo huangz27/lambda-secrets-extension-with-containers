@@ -22,7 +22,7 @@ Resources:
         ExcludeCharacters: '"@/\'
 
   #Make a lambda function
-  HelloWorldFunction:
+  SecretsFunction:
     Type: AWS::Serverless::Function
     Properties:
       PackageType: Image
@@ -47,6 +47,4 @@ Outputs:
   MySecretName:
     Value: !Ref SecretName
     Description: SecretName
-  HelloWorldFunction:
-    Value: !Ref HelloWorldFunction
-    Description: HelloWorldFunction Lambda Function
+

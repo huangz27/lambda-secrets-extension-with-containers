@@ -1,0 +1,9 @@
+# Download and extract the layer locally
+aws lambda get-layer-version-by-arn \
+  --arn arn:aws:lambda:ap-southeast-1:044395824272:layer:AWS-Parameters-and-Secrets-Lambda-Extension:12 \
+  --query 'Content.Location' --output text \
+  | xargs curl -o layer.zip
+
+# Unzip to a layer/ folder next to your Dockerfile
+unzip -d layer layer.zip
+rm layer.zip
